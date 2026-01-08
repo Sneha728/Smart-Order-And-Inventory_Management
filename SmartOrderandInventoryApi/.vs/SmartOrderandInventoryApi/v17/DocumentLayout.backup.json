@@ -1,0 +1,1437 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\inventoryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\categoryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\invoiceservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\reportservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\warehouseservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\adminservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\paymentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\testhelpers\\configmockfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\testhelpers\\identitymockfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\testhelpers\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFB7FE1-CC14-7FBD-4D36-73C10A97232C}|..\\SmartOrderInventory-tests\\SmartOrderInventory-tests.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderinventory-tests\\services\\notificationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\notifications\\notificationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:notifications\\notificationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\notifications\\notificationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:notifications\\notificationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\notifications\\notificationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:notifications\\notificationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\inventoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\inventoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\inventorystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\inventorystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\interfaces\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\interfaces\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\interfaces\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\interfaces\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\smartorderandinventoryapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:smartorderandinventoryapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\warehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\warehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\interfaces\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\interfaces\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260103172409_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260103172409_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260103172050_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260103172050_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\interfaces\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\interfaces\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\lowstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\lowstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\topsellingproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\topsellingproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\interfaces\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\interfaces\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SmartOrderInventoryDB/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SmartOrderInventoryDB/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\repositories\\interfaces\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:repositories\\interfaces\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|c:\\users\\sneha\\onedrive\\desktop\\guvi_assignments\\capstoneproject\\smartorderandinventoryapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A90F50E3-CB6E-01A3-3BA9-6EA1F53EBD8D}|SmartOrderandInventoryApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260102165457_WarehouseAndPrecisionFinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260102165457_WarehouseAndPrecisionFinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\OrderServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\OrderServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\OrderServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\OrderServiceTests.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAiwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:59:12.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\ProductServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\ProductServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\ProductServiceTests.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:59:53.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\InventoryServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\InventoryServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\InventoryServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\InventoryServiceTests.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:00:10.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\CategoryServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\CategoryServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\CategoryServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\CategoryServiceTests.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:44:00.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\ReportServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\ReportServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\ReportServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\ReportServiceTests.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:53:09.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\AdminService.cs",
+              "RelativeToolTip": "Services\\AdminService.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAA4wNAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:13:23.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Data\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Data\\DataSeeder.cs*",
+              "RelativeToolTip": "Data\\DataSeeder.cs*",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:09:30.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WarehouseService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\WarehouseService.cs",
+              "RelativeDocumentMoniker": "Services\\WarehouseService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\WarehouseService.cs",
+              "RelativeToolTip": "Services\\WarehouseService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:09:19.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InvoiceServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\InvoiceServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\InvoiceServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\InvoiceServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\InvoiceServiceTests.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwv0wAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:53:43.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WarehouseServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\WarehouseServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\WarehouseServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\WarehouseServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\WarehouseServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:52:37.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\InvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\InvoiceRepository.cs",
+              "RelativeToolTip": "Repositories\\InvoiceRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T09:56:25.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "Services\\InvoiceService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA4wEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T09:12:18.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\AdminServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\AdminServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\AdminServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\AdminServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:37:50.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\ReportService.cs",
+              "RelativeToolTip": "Services\\ReportService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:43:13.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReportRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\ReportRepository.cs",
+              "RelativeToolTip": "Repositories\\ReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:41:09.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WarehouseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\WarehouseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\WarehouseRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\WarehouseRepository.cs",
+              "RelativeToolTip": "Repositories\\WarehouseRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:06:27.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\PaymentServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\PaymentServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\PaymentServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\PaymentServiceTests.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:45:20.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConfigMockFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\TestHelpers\\ConfigMockFactory.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\TestHelpers\\ConfigMockFactory.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\TestHelpers\\ConfigMockFactory.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\TestHelpers\\ConfigMockFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:42:32.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IdentityMockFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\TestHelpers\\IdentityMockFactory.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\TestHelpers\\IdentityMockFactory.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\TestHelpers\\IdentityMockFactory.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\TestHelpers\\IdentityMockFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:36:09.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAUwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T19:56:08.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T07:06:29.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:07:53.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAACkBAAAAAAAAAAAcwEABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T11:18:29.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "Repositories\\PaymentRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:39:32.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Services\\PaymentService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:40:39.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InventoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\InventoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InventoryRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\InventoryRepository.cs",
+              "RelativeToolTip": "Repositories\\InventoryRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T06:39:29.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\InventoryService.cs",
+              "RelativeDocumentMoniker": "Services\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\InventoryService.cs",
+              "RelativeToolTip": "Services\\InventoryService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAcwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T06:38:34.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T05:34:05.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T05:17:33.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:16:44.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TestDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\TestHelpers\\TestDbContextFactory.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\TestHelpers\\TestDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\TestHelpers\\TestDbContextFactory.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\TestHelpers\\TestDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:56:19.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NotificationServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\NotificationServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\SmartOrderInventory-tests\\Services\\NotificationServiceTests.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderInventory-tests\\Services\\NotificationServiceTests.cs",
+              "RelativeToolTip": "..\\SmartOrderInventory-tests\\Services\\NotificationServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T03:00:35.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NotificationBackgroundService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Notifications\\NotificationBackgroundService.cs",
+              "RelativeDocumentMoniker": "Notifications\\NotificationBackgroundService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Notifications\\NotificationBackgroundService.cs",
+              "RelativeToolTip": "Notifications\\NotificationBackgroundService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T20:13:18.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowFwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T11:42:31.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "NotificationEvent.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Notifications\\NotificationEvent.cs",
+              "RelativeDocumentMoniker": "Notifications\\NotificationEvent.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Notifications\\NotificationEvent.cs",
+              "RelativeToolTip": "Notifications\\NotificationEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T20:08:55.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T20:07:03.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T11:44:19.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T19:09:15.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Inventory.cs",
+              "RelativeToolTip": "Models\\Inventory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:47:56.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:41:19.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T20:16:43.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "NotificationQueue.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Notifications\\NotificationQueue.cs",
+              "RelativeDocumentMoniker": "Notifications\\NotificationQueue.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Notifications\\NotificationQueue.cs",
+              "RelativeToolTip": "Notifications\\NotificationQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T20:09:59.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T17:51:06.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IInvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IInvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IInvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IInvoiceRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IInvoiceRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T09:56:03.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\PaymentDto.cs",
+              "RelativeToolTip": "DTOs\\PaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:37:10.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "Controllers\\InvoicesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T09:50:26.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InventoryResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\InventoryResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\InventoryResponseDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\InventoryResponseDto.cs",
+              "RelativeToolTip": "DTOs\\InventoryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:50:31.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "InventoryStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\InventoryStatusDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\InventoryStatusDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\InventoryStatusDto.cs",
+              "RelativeToolTip": "DTOs\\InventoryStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:36:48.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IInvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IInvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IInvoiceService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IInvoiceService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IInvoiceService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T09:58:14.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswEUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T09:14:11.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA2wAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T09:15:29.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:44:49.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IReportService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IReportService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IReportService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:42:43.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T14:29:33.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "WarehousesController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\WarehousesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WarehousesController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\WarehousesController.cs",
+              "RelativeToolTip": "Controllers\\WarehousesController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvzoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:10:31.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T14:32:06.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:17:14.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SmartOrderandInventoryApi.csproj",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\SmartOrderandInventoryApi.csproj",
+              "RelativeDocumentMoniker": "SmartOrderandInventoryApi.csproj",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\SmartOrderandInventoryApi.csproj",
+              "RelativeToolTip": "SmartOrderandInventoryApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T17:12:50.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IWarehouseService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IWarehouseService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IWarehouseService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IWarehouseService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IWarehouseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:07:50.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T07:00:08.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:26:59.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T11:39:28.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T10:54:39.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwFEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T05:20:43.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T08:33:45.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAqwEsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:08:50.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwGoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:10:39.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T05:19:16.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAYwKgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:12:30.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20260103172050_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260103172050_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260103172050_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260103172050_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260103172050_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T17:20:50.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:31:18.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20260103172409_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260103172409_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260103172409_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260103172409_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260103172409_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T17:24:09.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IReportRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IReportRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IReportRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:40:28.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "LowStockDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\LowStockDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LowStockDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\LowStockDto.cs",
+              "RelativeToolTip": "DTOs\\LowStockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:38:16.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "TopSellingProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\TopSellingProductDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TopSellingProductDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\TopSellingProductDto.cs",
+              "RelativeToolTip": "DTOs\\TopSellingProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:35:24.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\OrderItemDto.cs",
+              "RelativeToolTip": "DTOs\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:01:49.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "WarehouseDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\WarehouseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\WarehouseDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\WarehouseDto.cs",
+              "RelativeToolTip": "DTOs\\WarehouseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:02:21.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Services\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:40:14.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IPaymentRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:39:04.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:34:44.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAA5wDsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T19:40:33.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "IInventoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IInventoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IInventoryRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IInventoryRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IInventoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T06:39:52.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SmartOrderInventoryDB/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SmartOrderInventoryDB/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-03T04:18:39.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "dbo.AspNetUserRoles.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SmartOrderInventoryDB/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SmartOrderInventoryDB/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-03T04:19:01.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "DTOs\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T19:36:13.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "IWarehouseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IWarehouseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IWarehouseRepository.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Repositories\\Interfaces\\IWarehouseRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IWarehouseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:05:07.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-02T17:34:51.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20260102165457_WarehouseAndPrecisionFinal.cs",
+              "DocumentMoniker": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260102165457_WarehouseAndPrecisionFinal.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260102165457_WarehouseAndPrecisionFinal.cs",
+              "ToolTip": "C:\\Users\\sneha\\OneDrive\\Desktop\\Guvi_Assignments\\CapstoneProject\\SmartOrderandInventoryApi\\Migrations\\20260102165457_WarehouseAndPrecisionFinal.cs",
+              "RelativeToolTip": "Migrations\\20260102165457_WarehouseAndPrecisionFinal.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T17:04:10.284Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
