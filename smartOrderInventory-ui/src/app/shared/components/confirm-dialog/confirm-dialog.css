@@ -1,0 +1,34 @@
+/* Container */
+.dialog-container {
+  padding: 20px 24px;
+  max-width: 360px;
+}
+
+/* Title */
+.dialog-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+/* Message */
+.dialog-message {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Actions */
+.dialog-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+/* Button fine-tuning */
+button {
+  min-width: 90px;
+}

@@ -1,0 +1,66 @@
+<h2 class="page-title">Order Fulfillment</h2>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z1 user-table">
+
+  <!-- Order ID -->
+  <ng-container matColumnDef="orderId">
+    <th mat-header-cell *matHeaderCellDef>Order ID</th>
+    <td mat-cell *matCellDef="let o">#{{ o.orderId }}</td>
+  </ng-container>
+
+  <!-- Date -->
+  <ng-container matColumnDef="date">
+    <th mat-header-cell *matHeaderCellDef>Order Date</th>
+    <td mat-cell *matCellDef="let o">
+      {{ o.orderDate | date:'mediumDate' }}
+    </td>
+  </ng-container>
+
+  <!-- Status -->
+  <ng-container matColumnDef="status">
+    <th mat-header-cell *matHeaderCellDef>Status</th>
+    <td mat-cell *matCellDef="let o">
+      <span class="status-chip" [ngClass]="o.status">{{ o.status }}
+      </span>
+
+    </td>
+  </ng-container>
+
+  <!-- Progress -->
+  <ng-container matColumnDef="progress">
+    <th mat-header-cell *matHeaderCellDef>Progress</th>
+    <td mat-cell *matCellDef="let o">
+      <div class="progress-bar">
+        <div
+          *ngFor="let s of statuses; let i = index"
+          class="step"
+          [class.active]="i <= getStatusIndex(o.status)">
+        </div>
+      </div>
+    </td>
+  </ng-container>
+
+  <!-- Actions -->
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef class="center">Actions</th>
+    <td mat-cell *matCellDef="let o" class="center">
+      <button
+        mat-raised-button
+        color="primary"
+        [disabled]="!canMoveNext(o) || o.status === 'Cancelled'"
+
+        (click)="moveNext(o)">
+        Update Status
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+
+<mat-paginator
+  [pageSize]="5"
+  [pageSizeOptions]="[5, 10, 20]"
+  showFirstLastButtons>
+</mat-paginator>

@@ -1,0 +1,56 @@
+<h2 class="page-title">Invoices</h2>
+
+<!-- SEARCH -->
+<mat-form-field appearance="outline" class="search-box">
+  <mat-label>Search by Invoice / Order ID</mat-label>
+  <input matInput (keyup)="applyFilter($event)">
+</mat-form-field>
+
+<!-- TABLE -->
+<table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z2">
+
+  <!-- Invoice ID -->
+  <ng-container matColumnDef="invoiceId">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Invoice ID</th>
+    <td mat-cell *matCellDef="let i">{{ i.invoiceId }}</td>
+  </ng-container>
+
+  <!-- Order ID -->
+  <ng-container matColumnDef="orderId">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Order ID</th>
+    <td mat-cell *matCellDef="let i">{{ i.orderId }}</td>
+  </ng-container>
+
+  <!-- Invoice Date -->
+  <ng-container matColumnDef="invoiceDate">
+    <th mat-header-cell *matHeaderCellDef>Invoice Date</th>
+    <td mat-cell *matCellDef="let i">{{ i.invoiceDate }}</td>
+  </ng-container>
+
+  <!-- Amount -->
+  <ng-container matColumnDef="totalAmount">
+    <th mat-header-cell *matHeaderCellDef>Total Amount</th>
+    <td mat-cell *matCellDef="let i">₹ {{ i.totalAmount | number:'1.2-2' }}</td>
+  </ng-container>
+
+  <!-- Status -->
+  <ng-container matColumnDef="paymentStatus">
+    <th mat-header-cell *matHeaderCellDef>Status</th>
+    <td mat-cell *matCellDef="let i">
+      <span
+        class="status-chip"
+        [class.paid]="i.paymentStatus === 'Paid'"
+        [class.pending]="i.paymentStatus === 'Pending'">
+        {{ i.paymentStatus }}
+      </span>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+
+<mat-paginator
+  [pageSizeOptions]="[5, 10, 20]"
+  showFirstLastButtons>
+</mat-paginator>

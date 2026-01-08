@@ -1,0 +1,47 @@
+<mat-card class="card">
+  <h2>Create New User</h2>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+
+    <mat-form-field appearance="outline" class="full">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" formControlName="password" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full">
+      <mat-label>Role</mat-label>
+      <mat-select formControlName="role">
+        <mat-option *ngFor="let role of roles" [value]="role">
+          {{ role }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field
+      *ngIf="form.get('role')?.value === 'WarehouseManager'"
+      appearance="outline"
+      class="full">
+      <mat-label>Warehouse</mat-label>
+      <mat-select formControlName="warehouseId">
+        <mat-option
+          *ngFor="let wh of warehouses"
+          [value]="wh.warehouseId">
+          {{ wh.warehouseName }} ({{ wh.location }})
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="actions">
+      <button mat-button type="button" (click)="cancel()">Cancel</button>
+      <button mat-raised-button color="primary" type="submit">
+        Create
+      </button>
+    </div>
+
+  </form>
+</mat-card>

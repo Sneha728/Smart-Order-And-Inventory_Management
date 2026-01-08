@@ -1,0 +1,62 @@
+<div class="invoice-container">
+
+  <h2 class="title">Invoices & Billing</h2>
+
+  <!-- Loading -->
+  <div *ngIf="loading()" class="loading">
+    Loading invoices...
+  </div>
+
+  <!-- Empty -->
+  <div *ngIf="!loading() && invoices().length === 0" class="empty">
+    No invoices available
+  </div>
+
+  <!-- Invoice Cards -->
+  <div
+    class="invoice-card"
+    *ngFor="let i of invoices()">
+
+    <div class="left">
+      <div class="row">
+        <span class="label">Invoice Id : </span>
+        <span>{{ i.invoiceId }}</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Order Id : </span>
+        <span>#{{ i.orderId }}</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Date</span>
+        <span>{{ i.invoiceDate }}</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Amount</span>
+        <span class="amount">₹{{ i.totalAmount }}</span>
+      </div>
+
+      <span
+        class="status"
+        [class.paid]="i.paymentStatus === 'Paid'"
+        [class.pending]="i.paymentStatus === 'Pending'"
+        [class.cancelled]="i.paymentStatus === 'Cancelled'">
+        {{ i.paymentStatus }}
+      </span>
+    </div>
+
+    <!-- Pay button -->
+    <div class="right">
+      <button
+        *ngIf="i.paymentStatus === 'Pending'"
+        class="pay-btn"
+        (click)="pay(i)">
+        Pay
+      </button>
+    </div>
+
+  </div>
+
+</div>

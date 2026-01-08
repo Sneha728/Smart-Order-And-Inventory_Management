@@ -1,0 +1,102 @@
+/* Page title */
+.page-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Toolbar */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.search {
+  width: 260px;
+}
+
+/* Table */
+.user-table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+/* Center helper */
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Row borders */
+.user-table td,
+.user-table th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* ============================= */
+/* SMALL & CLEAN STATUS TOGGLE   */
+/* ============================= */
+
+.status-toggle {
+  transform: scale(0.55);          /* main size control */
+  transform-origin: center;
+}
+
+/* Remove extra spacing added by Material */
+.mat-slide-toggle {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reduce track height */
+.mat-slide-toggle-bar {
+  height: 14px !important;
+}
+
+/* Reduce thumb size */
+.mat-slide-toggle-thumb {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Align toggle nicely inside cell */
+.mat-slide-toggle-label {
+  justify-content: center;
+}
+
+/* ============================= */
+/* Actions column                */
+/* ============================= */
+
+.actions-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Edit button */
+.edit-btn mat-icon {
+  color: #3f51b5; /* Indigo */
+}
+
+.edit-btn:hover mat-icon {
+  color: #303f9f;
+}
+
+/* Delete button */
+.delete-btn mat-icon {
+  color: #e53935; /* Red */
+}
+
+.delete-btn:hover mat-icon {
+  color: #b71c1c;
+}
+
+/* Disabled icons */
+button[disabled] mat-icon {
+  opacity: 0.35;
+  cursor: not-allowed;
+}

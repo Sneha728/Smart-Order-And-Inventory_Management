@@ -1,0 +1,10 @@
+<h2>Order Timeline</h2>
+
+<div class="timeline">
+  <div *ngFor="let step of steps"
+       class="timeline-step"
+       [class.done]="isCompleted(step)">
+    <span class="dot"></span>
+    <span class="label">{{ step }}</span>
+  </div>
+</div>

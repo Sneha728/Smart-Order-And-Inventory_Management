@@ -1,0 +1,110 @@
+<mat-card class="page-card">
+  <h2>Place Order</h2>
+
+  <mat-form-field appearance="outline" class="warehouse-select">
+    <mat-label>Warehouse</mat-label>
+    <mat-select [(ngModel)]="selectedWarehouseId"
+                (selectionChange)="onWarehouseChange()">
+      <mat-option *ngFor="let w of warehouses" [value]="w.warehouseId">
+        {{ w.warehouseName }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <h3>Products</h3>
+
+  <div class="no-products" *ngIf="!selectedWarehouseId">
+    Please select a warehouse to view available products
+  </div>
+
+  <div class="no-products" *ngIf="noProductsAvailable()">
+    No products available in this warehouse
+  </div>
+
+  <table mat-table [dataSource]="products()" class="table">
+    <ng-container matColumnDef="product">
+      <th mat-header-cell *matHeaderCellDef>Product</th>
+      <td mat-cell *matCellDef="let p">{{ p.productName }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="price">
+      <th mat-header-cell *matHeaderCellDef>Price</th>
+      <td mat-cell *matCellDef="let p">₹{{ p.price }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let p">
+        <button mat-icon-button class="cart-btn"
+                (click)="addToCart(p)">
+          <mat-icon>add_shopping_cart</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="productColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: productColumns"></tr>
+  </table>
+</mat-card>
+
+<div class="card-gap"></div>
+
+<mat-card class="page-card">
+  <h3>Cart</h3>
+
+  <div class="empty-cart" *ngIf="isCartEmpty()">
+    <mat-icon>shopping_cart</mat-icon>
+    <p>Cart is empty</p>
+  </div>
+
+  <table mat-table [dataSource]="cart()"
+         class="table"
+         *ngIf="!isCartEmpty()">
+
+    <ng-container matColumnDef="product">
+      <th mat-header-cell *matHeaderCellDef>Product</th>
+      <td mat-cell *matCellDef="let c">{{ c.name }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="qty">
+      <th mat-header-cell *matHeaderCellDef class="center">Quantity</th>
+      <td mat-cell *matCellDef="let c" class="qty-cell">
+        <button mat-icon-button (click)="decrease(c)">−</button>
+        <span>{{ c.qty }}</span>
+        <button mat-icon-button (click)="increase(c)">+</button>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="subtotal">
+      <th mat-header-cell *matHeaderCellDef class="right">Subtotal</th>
+      <td mat-cell *matCellDef="let c" class="right">
+        ₹{{ c.price * c.qty }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let c" class="center">
+        <button mat-icon-button class="dlt-btn"
+                (click)="remove(c)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="cartColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: cartColumns"></tr>
+  </table>
+
+  <div class="checkout">
+    <div class="total">Total: ₹{{ totalAmount() }}</div>
+
+    <button mat-raised-button
+            color="primary"
+            class="place-btn"
+            (click)="placeOrder()"
+            [disabled]="isCartEmpty()">
+      Place Order
+    </button>
+  </div>
+</mat-card>

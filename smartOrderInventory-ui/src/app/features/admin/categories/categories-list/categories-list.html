@@ -1,0 +1,72 @@
+<h2 class="page-title">Category Management</h2>
+
+<div class="toolbar">
+  <mat-form-field appearance="outline" class="search">
+    <mat-label>Search categories</mat-label>
+    <input matInput (keyup)="applyFilter($event)" />
+  </mat-form-field>
+
+  <button
+    mat-raised-button
+    class="add-btn"
+    color="primary"
+    (click)="addCategory()">
+    Add Category
+  </button>
+</div>
+
+<table mat-table [dataSource]="dataSource" matSort class="user-table mat-elevation-z1">
+
+  <!-- Name -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+      Category Name
+    </th>
+    <td mat-cell *matCellDef="let c">{{ c.name }}</td>
+  </ng-container>
+
+  <!-- Status -->
+  <ng-container matColumnDef="status">
+    <th mat-header-cell *matHeaderCellDef class="center">Active</th>
+    <td mat-cell *matCellDef="let c" class="center">
+      <mat-slide-toggle
+       class="status-toggle"
+       [checked]="c.active"
+       (change)="toggleStatus(c, $event)">
+      </mat-slide-toggle>
+
+    </td>
+  </ng-container>
+
+  <!-- Actions -->
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef class="center">Actions</th>
+    <td mat-cell *matCellDef="let c" class="actions-wrapper">
+
+      <button
+        mat-icon-button
+        class="edit-btn"
+        (click)="editCategory(c)">
+        <mat-icon>edit</mat-icon>
+      </button>
+
+      <button
+        mat-icon-button
+        class="delete-btn"
+        [disabled]="!c.active"
+        (click)="deleteCategory(c)">
+        <mat-icon>delete</mat-icon>
+      </button>
+
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+
+<mat-paginator
+  [pageSize]="5"
+  [pageSizeOptions]="[5, 10, 20]"
+  showFirstLastButtons>
+</mat-paginator>

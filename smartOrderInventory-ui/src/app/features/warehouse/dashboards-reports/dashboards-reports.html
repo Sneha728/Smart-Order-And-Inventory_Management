@@ -1,0 +1,88 @@
+<h2 class="page-title">Warehouse Dashboard</h2>
+
+<!-- ================= SUMMARY CARDS ================= -->
+<div class="cards">
+  <div class="card total">
+    <div class="label">Total Orders</div>
+    <div class="value">{{ summary()?.totalOrders }}</div>
+  </div>
+
+  <div class="card created">
+    <div class="label">Created Orders</div>
+    <div class="value">{{ summary()?.createdOrders }}</div>
+  </div>
+
+  <div class="card shipped">
+    <div class="label">Shipped Orders</div>
+    <div class="value">{{ summary()?.shippedOrders }}</div>
+  </div>
+
+  <div class="card delivered">
+    <div class="label">Delivered Orders</div>
+    <div class="value">{{ summary()?.deliveredOrders }}</div>
+  </div>
+
+  <div class="card low-stock">
+    <div class="label">Low Stock Items</div>
+    <div class="value">{{ summary()?.lowStockCount }}</div>
+  </div>
+</div>
+
+<!-- ================= CHARTS ================= -->
+<div class="charts-grid">
+
+  <!-- ORDERS BAR -->
+  <div class="chart-card">
+    <h3>Order Status Overview</h3>
+    <div class="chart-container">
+      <canvas
+        baseChart
+        [data]="ordersBarData()"
+        [options]="ordersBarOptions"
+        [type]="ordersBarType">
+      </canvas>
+    </div>
+  </div>
+
+  <!-- INVENTORY DOUGHNUT -->
+  <div class="chart-card">
+    <h3>Inventory Health</h3>
+    <div class="chart-container">
+      <canvas
+        baseChart
+        [data]="inventoryPieData()"
+        [type]="inventoryPieType">
+      </canvas>
+    </div>
+  </div>
+
+  <!-- INVENTORY BAR -->
+  <div class="chart-card full-width">
+    <h3>Inventory Distribution</h3>
+    <div class="chart-container">
+      <canvas
+        baseChart
+        [data]="inventoryBarData()"
+        [type]="inventoryBarType">
+      </canvas>
+    </div>
+  </div>
+
+</div>
+
+<!-- ================= INVENTORY REPORTS ================= -->
+<h3 class="section-title">Low Stock Products</h3>
+<table class="inventory-table">
+  <tr *ngFor="let i of lowStockItems()">
+    <td>{{ i.productName }}</td>
+    <td class="low">{{ i.quantity }}</td>
+  </tr>
+</table>
+
+<h3 class="section-title">Top Stocked Products</h3>
+<table class="inventory-table">
+  <tr *ngFor="let i of topStocked()">
+    <td>{{ i.productName }}</td>
+    <td>{{ i.quantity }}</td>
+  </tr>
+</table>

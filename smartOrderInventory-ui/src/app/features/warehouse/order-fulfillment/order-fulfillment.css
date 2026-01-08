@@ -1,0 +1,50 @@
+.page-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.user-table {
+  width: 100%;
+}
+
+.user-table th,
+.user-table td {
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+.center {
+  text-align: center;
+}
+
+/* STATUS CHIP */
+.status-chip {
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 14px;
+  /* color: #3f51b5; */
+  font-weight: 600;
+}
+.Created {  color : #b810a4;font-weight:800; }
+.Approved {   color :#3471f6 ;font-weight:800;}
+.Packed {  color : #0b9996; font-weight:800;}
+.Shipped { color : #5f1073; font-weight:800; }
+.Delivered { color : #0a7d1b;font-weight:800; }
+.Cancelled {  color: #cb1426; font-weight:800;}
+
+/* PROGRESS BAR */
+.progress-bar {
+  display: flex;
+  gap: 6px;
+}
+
+.step {
+  width: 32px;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.step.active {
+  background-color: #4caf50;
+}

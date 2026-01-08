@@ -1,0 +1,153 @@
+.row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.dropdown {
+  width: 320px;
+}
+
+.search {
+  width: 320px;
+  margin-left: auto;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  background: #fff7f9;
+}
+
+th {
+  background: #f3e5f5;
+  font-weight: 600;
+}
+
+.primary {
+  margin-top: 18px;
+  padding: 10px 22px;
+  background: #7b1fa2;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+/* ================= PAGE CARD ================= */
+.page-card {
+  padding: 24px;
+  background: #fff7f9;
+  border-radius: 14px;
+}
+
+/* ================= CART EMPTY STATE ================= */
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  color: #777;
+}
+
+.empty-cart mat-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+/* ================= CART TABLE ================= */
+table {
+  width: 100%;
+  margin-top: 20px;
+  background: transparent;
+}
+
+th {
+  background: #f3e5f5;
+  font-weight: 600;
+  padding: 12px;
+}
+
+td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* ================= QTY CELL ================= */
+.qty-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.qty-cell button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ede7f6;
+}
+
+.qty-cell span {
+  font-weight: 600;
+  min-width: 20px;
+  text-align: center;
+}
+
+/* ================= DELETE BUTTON ================= */
+mat-icon.delete {
+  color: #d32f2f;
+}
+
+/* ================= ALIGNMENT HELPERS ================= */
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/* ================= CHECKOUT BAR ================= */
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* ================= PLACE ORDER BUTTON ================= */
+.place-btn,
+.checkout button {
+  padding: 10px 26px;
+  border-radius: 24px;
+  font-weight: 600;
+}
+
+.checkout button[disabled] {
+  background: #ddd !important;
+  color: #999 !important;
+}
+
+/* ================= GAP BETWEEN CARDS ================= */
+.card-gap {
+  height: 22px;
+}
+.no-products {
+  padding: 18px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff78e;
+  background: #f3e5f5;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+

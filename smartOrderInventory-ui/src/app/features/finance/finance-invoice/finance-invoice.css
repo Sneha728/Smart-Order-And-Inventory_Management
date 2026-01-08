@@ -1,0 +1,32 @@
+.page-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.search-box {
+  width: 300px;
+  margin-bottom: 18px;
+}
+
+/* STATUS CHIP */
+.status-chip {
+  padding: 8px 14px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.status-chip.paid {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-chip.pending {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+table {
+  width: 100%;
+}

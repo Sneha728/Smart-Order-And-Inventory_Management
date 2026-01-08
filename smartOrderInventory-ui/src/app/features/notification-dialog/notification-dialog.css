@@ -1,0 +1,100 @@
+:host {
+  display: block;
+  padding: 16px 18px;
+}
+
+
+.dialog-title {
+  margin: 0 0 14px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Container */
+.notification-list {
+  max-height: 360px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+/* Card */
+.notification-item {
+  display: flex;
+  background: #f7eefe;
+  /* padding: 20px 20px; */
+  border-radius: 14px;
+  margin-bottom: 12px;
+  transition: all 0.25s ease;
+}
+
+/* LEFT PURPLE BAR */
+.left-border {
+  width: 4px;
+  background: #9c27b0;
+  border-radius: 14px 0 0 14px;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  padding: 20px 20px;   /* ✅ MORE PADDING */
+}
+
+/* TEXT + BUTTON ROW */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+/* TEXT */
+.title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.message {
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+.date {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* MARK AS READ BUTTON */
+.mark-read-btn {
+  font-size: 12px;
+  padding: 2px 10px;
+  min-width: unset;
+  color: #9c27b0;
+}
+
+/* ✅ READ STATE */
+.notification-item.read {
+  background: #f3f3f3;
+  opacity: 0.75;
+}
+
+.notification-item.read .left-border {
+  background: #bdbdbd;
+}
+
+.notification-item.read .mark-read-btn {
+  display: none;
+}
+
+/* EMPTY */
+.empty {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.6;
+}
+
+/* FOOTER */
+.actions {
+  text-align: right;
+  margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.timeline-step {
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.timeline-step::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  right: -50%;
+  width: 100%;
+  height: 2px;
+  background: #ccc;
+}
+
+.timeline-step:last-child::after {
+  display: none;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ccc;
+  margin: auto;
+}
+
+.done .dot {
+  background: #4caf50;
+}
+
+.done .label {
+  color: #4caf50;
+  font-weight: 600;
+}

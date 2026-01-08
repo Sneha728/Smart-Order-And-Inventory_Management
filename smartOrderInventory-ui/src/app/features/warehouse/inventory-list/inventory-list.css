@@ -1,0 +1,117 @@
+/* Same base style as User Management */
+.page-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.search {
+  width: 260px;
+}
+
+.user-table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.user-table th
+ {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* ===== ACTION ICONS ===== */
+
+.actions-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.add-btn mat-icon {
+  color: #a21f88;
+}
+
+.add-btn:hover mat-icon {
+  color: #a8148a;
+}
+
+.reduce-btn mat-icon {
+  color: #ef0000;
+}
+
+.reduce-btn:hover mat-icon {
+  color: #e65100;
+}
+
+.stock-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Status dot */
+.stock-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.stock-dot.ok {
+  background-color: #4caf50; /* green */
+}
+
+.stock-dot.low {
+  background-color: #ff9800; /* orange */
+}
+
+.stock-dot.empty {
+  background-color: #f44336; /* red */
+}
+
+/* Stock value */
+.stock-value {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* BADGES */
+.badge {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.badge.low {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.badge.out {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+/* Disabled reduce icon */
+button[disabled] mat-icon {
+  opacity: 0.35;
+  cursor: not-allowed;
+}

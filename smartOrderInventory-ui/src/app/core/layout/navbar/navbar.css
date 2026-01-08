@@ -1,0 +1,109 @@
+/* ================= NAVBAR ================= */
+.navbar {
+  height: 50px;                 /* Reduced height */
+  background-color: #6A5ACD;    /* Clean purple */
+  color: #ffffff;
+   
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Brand on left */
+.brand {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  white-space: nowrap;          /* Prevent wrap */
+}
+
+/* Right-side actions */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Role text */
+.user {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.95;
+}
+
+/* Material buttons color fix */
+.actions button {
+  color: white;
+}
+
+/* Icon button size */
+.actions mat-icon {
+  font-size: 20px;
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 0 12px;
+  }
+
+  .brand {
+    font-size: 16px;
+  }
+
+  .user {
+    font-size: 13px;
+  }
+
+  .actions {
+    gap: 8px;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 480px) {
+
+  .navbar {
+    height: auto;
+    padding: 8px 12px;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .user {
+    display: none;   /* Hide role text on very small screens */
+  }
+
+  .actions mat-icon {
+    font-size: 22px;
+  }
+}
+/*Notification badge */
+.notif-badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: #e53935;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 50%;
+  line-height: 1;
+}

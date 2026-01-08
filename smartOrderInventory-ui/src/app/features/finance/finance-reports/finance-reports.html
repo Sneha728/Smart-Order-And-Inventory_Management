@@ -1,0 +1,76 @@
+<h2 class="page-title">Sales Reports</h2>
+
+<!-- FILTER -->
+<div class="filters">
+  <div class="filter-group">
+    <label>From</label>
+    <input type="date"
+      [ngModel]="fromDate()"
+      (ngModelChange)="fromDate.set($event)">
+  </div>
+
+  <div class="filter-group">
+    <label>To</label>
+    <input type="date"
+      [ngModel]="toDate()"
+      (ngModelChange)="toDate.set($event)">
+  </div>
+
+  <button (click)="applyFilter()">Apply</button>
+</div>
+
+<!-- SUMMARY -->
+<div class="cards">
+  <div class="card total">
+    <div class="label">Total Sales</div>
+    <div class="value">₹{{ totalSales() }}</div>
+  </div>
+
+  <div class="card paid">
+    <div class="label">Paid</div>
+    <div class="value">₹{{ paidAmount() }}</div>
+  </div>
+
+  <div class="card pending">
+    <div class="label">Pending</div>
+    <div class="value">₹{{ pendingAmount() }}</div>
+  </div>
+</div>
+
+<!-- CHARTS -->
+<div class="charts-grid">
+
+  <div class="chart-card">
+    <h3>Payment Status</h3>
+    <div class="chart-container">
+      <canvas baseChart
+        [data]="paymentChartData"
+        [type]="paymentChartType">
+      </canvas>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <h3>Sales by Date</h3>
+    <div class="chart-container">
+      <canvas baseChart
+        [data]="salesDateChartData"
+        [options]="barOptions"
+        [type]="salesDateChartType">
+      </canvas>
+    </div>
+  </div>
+
+</div>
+
+<!-- SALES BY PRODUCT -->
+<div class="chart-card full-width">
+  <h3>Sales by Product (Quantity)</h3>
+  <div class="chart-container small">
+    <canvas baseChart
+      [data]="productChartData"
+      [options]="horizontalBarOptions"
+      [type]="productChartType">
+    </canvas>
+  </div>
+</div>

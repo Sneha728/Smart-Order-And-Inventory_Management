@@ -1,0 +1,31 @@
+<header class="navbar">
+  <div class="brand">
+    Smart Order & Inventory
+  </div>
+
+  <div class="actions">
+    <span class="role-badge">{{ userRole }}</span>
+
+    <!-- 🔔 Notifications -->
+    <button
+      mat-icon-button
+      aria-label="Notifications"
+      *ngIf="userRole === 'Customer' || userRole === 'WarehouseManager' || userRole === 'SalesExecutive' || userRole === 'Admin' || userRole === 'FinanceOfficer'"
+      (click)="openNotifications()">
+
+    <mat-icon
+  matBadge="{{ notificationService.unreadCount$() }}"
+  matBadgeColor="warn"
+  matBadgeOverlap="false"
+  [matBadgeHidden]="notificationService.unreadCount$() === 0">
+  notifications
+  </mat-icon>
+
+
+    </button>
+
+    <button mat-button class="logout-btn" (click)="logout()">
+      Logout
+    </button>
+  </div>
+</header>

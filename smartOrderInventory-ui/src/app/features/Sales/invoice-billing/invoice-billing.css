@@ -1,0 +1,108 @@
+.invoice-container {
+  padding: 24px;
+  background: #faf7fb;
+  min-height: 100%;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* States */
+.loading,
+.empty {
+  padding: 40px;
+  text-align: center;
+  color: #777;
+  font-size: 15px;
+}
+
+/* Card */
+.invoice-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background :#fff;
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Left section */
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.label {
+  font-weight: 600;
+  color: #555;
+}
+
+.amount {
+  font-weight: 600;
+  color: #6a1b9a;
+}
+
+/* Status badge */
+.status {
+  margin-top: 8px;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  width: fit-content;
+  /* background-color: #af62d0; */
+}
+
+.status.paid {
+  background: #dff3e5;
+  color: #1b7f4b;
+}
+
+.status.pending {
+  background: #fff3cd;
+  color: #9a6a00;
+}
+
+/* Right */
+.right {
+  display: flex;
+  align-items: center;
+}
+
+/* Pay button */
+.pay-btn {
+  padding: 10px 22px;
+  border-radius: 22px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  background: #7b1fa2;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pay-btn:hover {
+  background: #6a1b9a;
+  transform: scale(1.05);
+}
+/* Cancelled invoice */
+.status.cancelled {
+  background: #fdecea;
+  color: #c62828;
+}
+
+

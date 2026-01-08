@@ -1,0 +1,19 @@
+<mat-card class="card">
+  <h2>{{ isEdit ? 'Edit Category' : 'Add Category' }}</h2>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+
+    <mat-form-field appearance="outline" class="full">
+      <mat-label>Category Name</mat-label>
+      <input matInput formControlName="categoryName" />
+    </mat-form-field>
+
+    <div class="actions">
+      <button mat-button type="button" (click)="cancel()">Cancel</button>
+      <button mat-raised-button color="primary" type="submit">
+        {{ isEdit ? 'Update' : 'Create' }}
+      </button>
+    </div>
+
+  </form>
+</mat-card>

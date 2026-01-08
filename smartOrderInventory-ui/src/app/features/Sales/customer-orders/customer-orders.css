@@ -1,0 +1,78 @@
+.page-card {
+  padding: 24px;
+  background: #fff7f9;
+  border-radius: 14px;
+}
+
+.status-chip {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.Created {  color : #b810a4;font-weight:800; }
+.Approved {   color : #711fac;font-weight:800;}
+.Packed {  color : #1552d6; font-weight:800;}
+.Shipped { color : #07901c; font-weight:800; }
+.Delivered { color : #0a7d1b;font-weight:800; }
+.Cancelled {  color: #cb1426; font-weight:800;}
+
+.cancel-btn mat-icon {
+  color: #d32f2f;
+}
+
+.order-details {
+  background: #fff;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 10px;
+}
+
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.items-table th, .items-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.center { text-align: center; }
+.right { text-align: right; }
+
+.timeline {
+  display: flex;
+  margin-top: 12px;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  background: #eee;
+  border-radius: 20px;
+  margin: 0 4px;
+  font-size: 12px;
+}
+
+.step.done {
+  background: #2da837;
+  color: white;
+}
+
+.cancelled-text {
+  margin-top: 12px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: #c62828;
+  background: #fdecea;
+  border-radius: 8px;
+}
+.status.Cancelled {
+  background: #fdecea;
+  color: #c62828;
+}
+

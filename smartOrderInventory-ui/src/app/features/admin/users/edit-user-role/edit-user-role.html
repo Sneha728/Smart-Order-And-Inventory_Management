@@ -1,0 +1,39 @@
+<mat-card class="card">
+  <h2>Edit User Role</h2>
+
+  <p class="email">{{ userEmail }}</p>
+
+  <form [formGroup]="form" (ngSubmit)="save()">
+
+    <!-- Role -->
+    <mat-form-field appearance="outline" class="full">
+      <mat-label>New Role</mat-label>
+      <mat-select formControlName="role">
+        <mat-option *ngFor="let role of availableRoles" [value]="role">
+          {{ role }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <!-- Warehouse (only if WarehouseManager) -->
+    <mat-form-field
+      *ngIf="form.value.role === 'WarehouseManager'"
+      appearance="outline"
+      class="full">
+      <mat-label>Warehouse</mat-label>
+      <mat-select formControlName="warehouseId">
+        <mat-option *ngFor="let w of warehouses" [value]="w.warehouseId">
+          {{ w.warehouseName }} ({{ w.location }})
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="actions">
+      <button mat-button type="button" (click)="cancel()">Cancel</button>
+      <button mat-raised-button color="primary" type="submit">
+        Update
+      </button>
+    </div>
+
+  </form>
+</mat-card>
